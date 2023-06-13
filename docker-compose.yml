@@ -4,5 +4,6 @@ services:
     build: .
     image: three-js-editor
     container_name: three-js-editor
+    restart: unless-stopped
     ports:
       - "8880:80"
