@@ -1,0 +1,8 @@
+version: '3'
+services:
+  webapp:
+    build: .
+    image: three-js-editor
+    container_name: three-js-editor
+    ports:
+      - "8880:80"
